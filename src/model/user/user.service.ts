@@ -27,6 +27,12 @@ export class UserService {
       where: [{ email }],
     });
 
+    const emailInvalido = !/\S+@\S+\.\S+/.test(email);
+
+    if (emailInvalido) {
+      throw new HttpException('Email inválido', HttpStatus.BAD_REQUEST);
+    }
+
     if (existingUser) {
       throw new HttpException('Email já cadastrado', HttpStatus.CONFLICT);
     }
