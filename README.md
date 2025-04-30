@@ -29,6 +29,7 @@ Esta aplicação oferece uma base sólida para sistemas que exigem:
 ```bash
 npm install
 
+```
 
 # Modo desenvolvimento
 npm run start:dev
@@ -39,20 +40,21 @@ npm run start:prod
 # Execução padrão
 npm run start
 
-📚 Tecnologias Utilizadas
-NestJS
+## 📚 Tecnologias Utilizadas
 
-TypeORM
+**NestJS**
 
-JWT
+**TypeORM**
 
-PostgreSQL
+**JWT**
 
-Docker
+**PostgreSQL**
 
-Class Validator
+**Docker**
 
-🔐 Endpoints de Autenticação
+**Class Validator**
+
+## 🔐 Endpoints de Autenticação
 
 | Método | Rota        | Descrição                                  |
 |--------|-------------|--------------------------------------------|
@@ -61,7 +63,8 @@ Class Validator
 | GET    | `/profile`  | Retorna dados do usuário autenticado (JWT) |
 
 
-💬 Contato
+## 💬 Contato
+
 Desenvolvido por Israel Sturaro —
 📧 israelsturaro@gmail.com
 💻 Contribuições são bem-vindas!
